@@ -4,27 +4,60 @@
 }
 
 \score {
-  \relative c' {
-    \key a \major
-    \partial 2 cis8 d4 e8~
-    e4. a8~ a2
-    r2 r8 cis, d e~
-    e fis g a~ a2
-    r2 r8 g fis e~
-    e d e fis4 e8 d e~
-    e8 d e fis4 a,8 a4
-
-    d8 e f g~ g2
-    r2 \tuplet 3/2 { f4 e b }
-    d8 c4 c d8 e g~
-    g4 fis4 r2
-    gis4 a b2
-    r2 r8 fis gis a~
-    a2 d2
-    r2 r8 cis4 b8~
-    b a4 cis4 c b8~
-    b8 a4.
+<<
+  \new ChordNames {
+    \relative c' {
+      < gis a cis e >
+    }
   }
+
+  {
+    \relative c' {
+      \key a \major
+      \partial 4. cis8 d4
+      e4. a4. r4
+      r2 r8 cis, d e~
+      e fis g a~ a2
+      r2 r8 g fis e~
+      e d e fis4 e8 d e
+      d e fis4 r4 a,8 a 
+
+      d e f g~ g2
+      r4 r8 f e4 d4 
+      d8 c4 c4 d4 e8
+      g4 fis4 r2
+      
+      gis4 a b2
+      r2 r8 fis8 gis4
+      a4. d4. r4
+      r2 cis2
+
+      b4( a4) cis8 c4 b8~
+      b8 a4. r2
+      r2 cis8 c4 b8~
+      b8 a4. r2
+      r2 cis8 c4 b8~
+      b8 a4. fis8 a fis a4
+      a1
+    }
+   
+  }
+<<
+    \addlyrics {
+    Step in -- side love
+    Let me find you a place
+    Where the curse of the day
+    Will be car -- ried a -- way
+    By the smile on your face
+    We are to -- ge -- ther now and for -- e -- ver
+    Come my way
+    Step in -- side love and stay
+    Step in -- side love
+    Step in -- side love
+    Step in -- side love
+    I want you to stay
+
+    }
 
   \layout {}
   \midi {}
