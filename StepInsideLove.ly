@@ -7,8 +7,8 @@
   <<
   \chords { 
   \set chordChanges = ##t
-  a4.:maj q1 q e:m7 a:76 d:maj q d:m7 g:79 c:maj d: e q b:m e:6 
-  a2:maj a:7 d d:m a2:maj a:7 d d:m a2:maj a:7 d1 a1
+  g4.:maj q1 q d:m7 g:76 c:maj q c:m7 f:79 bes:maj c: d q a:m d:6 
+  g2:maj g:7 c c:m g2:maj g:7 c c:m g2:maj g:7 c1 g1
   }
 
   \relative c' {
